@@ -88,7 +88,7 @@ namespace GithubActionsLab
             double final = 0;
             for (int i = 0; i < double.Parse(y); i++)
             {
-                final += hold;
+                final *= hold;
             }
             return final;
         }
